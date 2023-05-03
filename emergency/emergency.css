@@ -1,0 +1,15 @@
+.title {
+    color: gray;
+    width: 55%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+.contact {
+    padding: 2em;
+    font-weight: 900;
+}
+
+h6 {
+    color: gray;
+}
