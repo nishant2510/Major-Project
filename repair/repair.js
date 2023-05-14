@@ -38,7 +38,7 @@ var states = {
         center: { lat: 10.850516, lng: 76.271080 },
         zoom: 7.5
     },
-    
+
     'up': {
         center: { lat: 28.207609, lng: 79.826660 },
         zoom: 7.5
@@ -176,7 +176,7 @@ function search() {
                 });
                 markers[i].placeResult = results[i];
                 google.maps.event.addListener(markers[i], 'click', showInfoWindow);
-                setTimeout(dropMarker(i), i*100);
+                setTimeout(dropMarker(i), i * 100);
                 addResult(results[i], i);
             }
         }
